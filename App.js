@@ -1,12 +1,13 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
+import CarItem from './components/CarItem/Index'
  
 export default function App() {
   
   return (
     <View style={styles.container}>
-      <Text>Hello from vs code!</Text>
+      <CarItem/>
       <StatusBar style="auto" />
     </View>
   );
